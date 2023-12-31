@@ -11,7 +11,7 @@ def get_db_connection():
     return pymysql.connect(
         host='systemmanagement.mysql.database.azure.com',
         user='minseok',
-        password='seok9745@@',
+        password='--',
         db='project',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor,
